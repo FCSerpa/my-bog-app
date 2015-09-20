@@ -6,6 +6,7 @@ class CreaturesController < ApplicationController
 	end
 
 	def new
+		@creature = Creature.new
 		render :new
 	end
 	
@@ -14,5 +15,6 @@ class CreaturesController < ApplicationController
 		Creature.create(new_creature)
 		redirect_to "/creatures"
 	end
-
+	
+	
 end
