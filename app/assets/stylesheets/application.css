@@ -30,10 +30,18 @@ body {
 	font-size: 25px !important;
 }
 
-input[type="text"], textarea {
+h1 {
+	font-size: 50px !important;
+}
+
+h2 {
+	font-size: 40px !important;
+}
+
+input {
   background-color : gray; 
 }
 
-button {
-	background-color: gray;
+textarea {
+  background-color : gray; 
 }
