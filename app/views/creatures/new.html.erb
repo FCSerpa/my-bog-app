@@ -1,7 +1,16 @@
-<%= form_for @creature do |f| %>
+<div class="form-horizontal">
 	
-	<%= f.text_field :name %>
-	<%= f.text_area :description %>
-	<%= f.submit "save creature" %>
-	
-<% end %>
+
+		<%= form_for @creature do |f| %>
+			<div class="form-group">
+				<%= f.text_field :name %>
+			</div>
+			<div class="form-group">
+				<%= f.text_area :description %>
+			</div>
+			<div class="form-group">
+			<%= f.submit "save creature" %>
+			</div>
+		<% end %>
+
+</div>
